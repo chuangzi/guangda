@@ -1,0 +1,356 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px/*字号/行高*/ "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+
+.header{
+    width: 1900px;
+    height: 550px;
+    background: url("../images/header.png");
+    margin: 0 auto;
+}
+.w{
+    width: 1000px;
+    margin:0 auto;
+}
+.floor1 img{
+    margin-top: -74px;
+}
+.floor4 .floor4-left{
+    width: 500px;
+    float: left;
+}
+.floor4 .floor4-left .floor4-left-1{
+    height: 74px;
+    background: #ffa200;
+    text-align: center;
+}
+.floor4 .floor4-left .floor4-left-1 h1{
+    font-size: 30px;
+    color: #FFF;
+    line-height: 74px;
+}
+.floor4 .floor4-left .floor4-left-1 h1 span{
+    font-size: 14px;
+    color: #FFF;
+}
+.floor4 .floor4-left .floor4-left-2{
+    height: 122px;
+    background: #feeac9;
+    text-align: center;
+}
+.floor4 .floor4-left .floor4-left-2 h2{
+    font-size: 72px;
+    color: #E00000;
+    line-height:122px;
+    float: left;
+    margin-left: 36px;
+}
+.floor4 .floor4-left .floor4-left-2 .curr{
+    margin-top: 30px;
+    width: 182px;
+    float: left;
+}
+.floor4 .floor4-left .floor4-left-2 h3{
+    display: block;
+    width: 116px;
+    height: 28px;
+    background: #ffa200;
+    font-size:18px;
+    color: #FFF;
+    text-align: center;
+    line-height: 28px;
+}
+.floor4 .floor4-left .floor4-left-2 p,
+.floor4 .floor4-left .floor4-left-3 p{
+    font-size: 14px;
+    color: #666;
+}
+.floor4 .floor4-left .floor4-left-3{
+    height: 134px;
+    background: #f7d192;
+    text-align: center;
+}
+.floor4 .floor4-left .floor4-left-3 h2 {
+    font-size: 72px;
+    color: #E00000;
+    line-height:134px;
+    float: left;
+    margin-left: 36px;
+}
+.floor4 .floor4-left .floor4-left-3 .curr {
+    margin-top: 36px;
+    width: 182px;
+    float: left;
+}
+.floor4 .floor4-left .floor4-left-3 h3{
+    display: block;
+    width: 174px;
+    height: 28px;
+    background: #ffa200;
+    font-size:18px;
+    color: #FFF;
+    text-align: center;
+    line-height: 28px;
+}
+
+.floor4 .floor4-left .floor4-left-4{
+    height: 108px;
+    background: #feeac9;
+    text-align: center;
+}
+.floor4 .floor4-left .floor4-left-4 h2 {
+    font-size: 36px;
+    color: #e83c3c;
+    line-height:108px;
+    float: left;
+    margin-left: 110px;
+}
+.floor4 .floor4-left .floor4-left-4 .curr {
+    margin-top: 26px;
+    width: 256px;
+    float: left;
+}
+.floor4 .floor4-left .floor4-left-4 h3{
+    font-size: 18px;
+    color: #666;
+    margin-left: -60px;
+    margin-bottom: 10px;
+}
+.floor4 .floor4-left .floor4-left-4 p{
+    font-size: 14px;
+    color: #666;
+}
+.floor4 .floor4-left .floor4-left-5{
+    height: 86px;
+    background: #f7d192;
+    text-align: center;
+
+}
+.floor4 .floor4-left .floor4-left-5 .btn1 a{
+    width: 200px;
+    height: 54px;
+    background: #ffa200;
+    border-radius: 28px;
+    float: left;
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
+    line-height:54px;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+.floor4 .floor4-left .floor4-left-5 .btn2{
+    width: 200px;
+    height: 54px;
+    background: #e00000;
+    border-radius: 28px;
+    float: right;
+    margin-top: 16px;
+    margin-right: 18px;
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
+    line-height:54px;
+}
+.floor4 .floor4-left .floor4-left-5 .btn2 a{
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
+    line-height:54px;
+    float: left;
+    margin-left:28px;
+}
+.floor4 .floor4-left .floor4-left-5 .btn2 img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.floor4 .floor4-right{
+    width: 500px;
+    float: left;
+}
+.floor4 .floor4-right .floor4-right-1{
+    height: 74px;
+    background: #3476b9;
+    text-align: center;
+}
+.floor4 .floor4-right .floor4-right-1 h1{
+    font-size: 30px;
+    color: #FFF;
+    line-height: 74px;
+}
+.floor4 .floor4-right .floor4-right-1 h1 span{
+    font-size: 14px;
+    color: #FFF;
+}
+.floor4 .floor4-right .floor4-right-2{
+    height: 122px;
+    background: #dfeffe;
+    text-align: center;
+}
+.floor4 .floor4-right .floor4-right-2 h2{
+    font-size: 72px;
+    color: #E00000;
+    line-height:122px;
+    float: left;
+    margin-left: 36px;
+}
+.floor4 .floor4-right .floor4-right-2 .curr{
+    margin-top: 30px;
+    width: 182px;
+    float: left;
+}
+.floor4 .floor4-right .floor4-right-2 h3{
+    display: block;
+    width: 116px;
+    height: 28px;
+    /*background: #ffa200;*/
+    font-size:18px;
+    color: #666;
+    text-align: center;
+    line-height: 28px;
+}
+.floor4 .floor4-right .floor4-right-2 p,
+.floor4 .floor4-right .floor4-right-3 p{
+    font-size: 14px;
+    color: #666;
+}
+.floor4 .floor4-right .floor4-right-3{
+    height: 134px;
+    background: #add2ef;
+    text-align: center;
+}
+.floor4 .floor4-right .floor4-right-3 h2 {
+    font-size: 72px;
+    color: #E00000;
+    line-height:134px;
+    float: left;
+    margin-left: 36px;
+}
+.floor4 .floor4-right .floor4-right-3 .curr {
+    margin-top: 36px;
+    width: 182px;
+    float: left;
+}
+.floor4 .floor4-right .floor4-right-3 h3{
+    display: block;
+    width: 174px;
+    height: 28px;
+    /*background: #ffa200;*/
+    font-size:18px;
+    color: #666;
+    text-align: center;
+    line-height: 28px;
+}
+
+.floor4 .floor4-right .floor4-right-4{
+    height: 108px;
+    background: #dfeffe;
+    text-align: center;
+}
+.floor4 .floor4-right .floor4-right-4 h2 {
+    font-size: 36px;
+    color: #e83c3c;
+    line-height:108px;
+    float: left;
+    margin-left: 88px;
+}
+.floor4 .floor4-right .floor4-right-4 .curr {
+    margin-top: 26px;
+    width: 256px;
+    float: left;
+}
+.floor4 .floor4-right .floor4-right-4 h3{
+    font-size: 18px;
+    color: #666;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+.floor4 .floor4-right .floor4-right-4 p{
+    font-size: 14px;
+    color: #666;
+}
+.floor4 .floor4-right .floor4-right-5{
+    height: 86px;
+    background: #add2ef;
+    text-align: center;
+
+}
+.floor4 .floor4-right .floor4-right-5 .btn1 a{
+    width: 200px;
+    height: 54px;
+    background: #ffa200;
+    border-radius: 28px;
+    float: left;
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
+    line-height:54px;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+.floor4 .floor4-right .floor4-right-5 .btn2{
+    width: 200px;
+    height: 54px;
+    background: #e00000;
+    border-radius: 28px;
+    float: right;
+    margin-top: 16px;
+    margin-right: 18px;
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
+    line-height:54px;
+}
+.floor4 .floor4-right .floor4-right-5 .btn2 a{
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
+    line-height:54px;
+    float: left;
+    margin-left:28px;
+}
+.floor4 .floor4-right .floor4-right-5 .btn2 img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.floor5{
+    height: 274px;
+    background: #eaeaea;
+    margin-top: 20px;
+}
+.floor5 .floor5-1{
+    width: 142px;
+    height: 51px;
+    background: url("../images/floor5.png") no-repeat;
+    text-align: center;
+    margin-left: 20px;
+}
+.floor5 .floor5-1 h1{
+    font-size: 24px;
+    color: #FFF;
+    padding-top: 6px;
+}
+.floor5 h2{
+    font-size: 18px;
+    color: #666;
+    margin: 17px 0 28px 20px;
+}
+.floor5 h2 a{
+    font-size: 18px;
+    color: #1883C7;
+}
+.floor5 p{
+    font-size: 16px;
+    color: #666;
+    line-height: 20px;
+    margin: 0 34px 0 20px;
+}
